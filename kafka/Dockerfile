@@ -1,6 +1,6 @@
 # Kafka and Zookeeper
 
-FROM debian:jessie
+FROM openjdk:8-jre
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV SCALA_VERSION 2.12
